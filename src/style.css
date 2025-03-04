@@ -1,0 +1,113 @@
+body,html {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100%;
+}
+
+.sidebar-container {
+  padding-block: 15px;
+  padding-inline-start: 5px;
+  padding-inline-end: 2.5px;
+  min-height: 100dvh;
+}
+
+.sidebar {
+  border: 1px black solid;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.sidebar-title {
+  position: relative;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: white;
+  top: -10px;
+  width: 30%;
+  left: 35%;
+  text-align: center;
+}
+
+.main-container {
+  padding-block: 15px;
+  padding-inline-start: 2.5px;
+  padding-inline-end: 5px;
+  min-height: 100dvh;
+}
+
+
+.main {
+  display: flex;
+  align-items: center;
+  border: 1px black solid;
+  margin-inline: 5px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#cube {
+  height: 90dvh;
+  margin-inline: auto;
+}
+
+
+hr {
+  border: none;
+  border-top: 2px solid #333;
+  color: #333;
+  overflow: visible;
+  margin-block: 15px;
+  text-align: center;
+  height: 1px;
+  border: 0;
+  width: 90%;
+  background: linear-gradient(to right, white, black, white);
+}
+
+
+.sidebar-content {
+  margin-inline: 10px;
+  margin-block-end: 5px;
+}
+
+.sidebar-color-row {
+  text-align: center;
+}
+
+.settings-hr::after{
+  background: #fff;
+  content: "Settings";
+  padding: 0 4px;
+  position: relative;
+  top: -10px;
+}
+
+.moves-hr::after{
+  background: #fff;
+  content: "Moves";
+  padding: 0 4px;
+  position: relative;
+  top: -10px;
+}
+
+
+.sidebar-div {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.move-btn {
+  inline-size: 25px;
+  block-size: 25px;
+}
+

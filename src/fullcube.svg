@@ -1,0 +1,267 @@
+<svg height="100%" viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg" class="center" id="cube">
+    <style>
+        .small {
+            font: 20px sans-serif;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .center {
+            justify-content: center;
+        }
+    </style>
+
+    <!-- U -->
+    <!-- Center -->
+    <rect x="200" y="200" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="alpha" class="top" />
+    <text x="225" y="225" class="small bold center-label" text-anchor="middle" dominant-baseline="middle">
+        α
+    </text>
+
+    <!-- Corner -->
+    <rect x="150" y="150" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="A" class="top" />
+    <text x="175" y="175" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        A
+    </text>
+
+    <rect x="250" y="150" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="B" class="top" />
+    <text x="275" y="175" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        B
+    </text>
+
+    <rect x="150" y="250" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="D" class="top" />
+    <text x="175" y="275" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        D
+    </text>
+
+    <rect x="250" y="250" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="C" class="top" />
+    <text x="275" y="275" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        C
+    </text>
+
+    <!-- Edge -->
+    <rect x="200" y="150" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="1" class="top" />
+    <text x="225" y="175" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        1
+    </text>
+
+    <rect x="150" y="200" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="4" class="top" />
+    <text x="175" y="225" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        4
+    </text>
+
+    <rect x="250" y="200" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="2" class="top" />
+    <text x="275" y="225" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        2
+    </text>
+
+    <rect x="200" y="250" width="50" height="50" fill="yellow" stroke="black" stroke-width="2" id="3" class="top" />
+    <text x="225" y="275" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        3
+    </text>
+
+    <!-- L -->
+    <rect x="50" y="200" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="beta" class="left" />
+    <text x="75" y="225" class="small bold center-label" text-anchor="middle" dominant-baseline="middle">
+        β
+    </text>
+
+    <rect x="0" y="150" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="H" class="left" />
+    <text x="25" y="175" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        H
+    </text>
+    <rect x="100" y="150" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="E" class="left" />
+    <text x="125" y="175" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        E
+    </text>
+    <rect x="0" y="250" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="G" class="left" />
+    <text x="25" y="275" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        G
+    </text>
+    <rect x="100" y="250" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="F" class="left" />
+    <text x="125" y="275" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        F
+    </text>
+
+    <rect x="50" y="150" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="8" class="left" />
+    <text x="75" y="175" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        8
+    </text>
+    <rect x="100" y="200" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="5" class="left" />
+    <text x="125" y="225" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        5
+    </text>
+    <rect x="50" y="250" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="6" class="left" />
+    <text x="75" y="275" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        6
+    </text>
+    <rect x="0" y="200" width="50" height="50" fill="blue" stroke="black" stroke-width="2" id="7" class="left" />
+    <text x="25" y="225" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        7
+    </text>
+
+    <!-- R -->
+    <rect x="350" y="200" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="delta"
+        class="right" />
+    <text x="375" y="225" class="small bold center-label" text-anchor="middle" dominant-baseline="middle">
+        δ
+    </text>
+
+    <rect x="300" y="250" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="M" class="right" />
+    <text x="325" y="275" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        M
+    </text>
+    <rect x="300" y="150" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="N" class="right" />
+    <text x="325" y="175" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        N
+    </text>
+    <rect x="400" y="150" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="O" class="right" />
+    <text x="425" y="175" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        O
+    </text>
+    <rect x="400" y="250" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="P" class="right" />
+    <text x="425" y="275" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        P
+    </text>
+
+    <rect x="300" y="200" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="13" class="right" />
+    <text x="325" y="225" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        13
+    </text>
+    <rect x="350" y="150" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="14" class="right" />
+    <text x="375" y="175" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        14
+    </text>
+    <rect x="400" y="200" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="15" class="right" />
+    <text x="425" y="225" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        15
+    </text>
+    <rect x="350" y="250" width="50" height="50" fill="green" stroke="black" stroke-width="2" id="16" class="right" />
+    <text x="375" y="275" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        16
+    </text>
+
+    <!-- D -->
+    <rect x="500" y="200" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="zeta"
+        class="bottom" />
+    <text x="525" y="225" class="small bold center-label" text-anchor="middle" dominant-baseline="middle">
+        ζ
+    </text>
+
+    <rect x="450" y="150" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="W" class="bottom" />
+    <text x="475" y="175" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        W
+    </text>
+    <rect x="550" y="150" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="X" class="bottom" />
+    <text x="575" y="175" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        X
+    </text>
+    <rect x="450" y="250" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="V" class="bottom" />
+    <text x="475" y="275" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        V
+    </text>
+    <rect x="550" y="250" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="U" class="bottom" />
+    <text x="575" y="275" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        U
+    </text>
+
+    <rect x="500" y="250" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="21" class="bottom" />
+    <text x="525" y="275" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        21
+    </text>
+    <rect x="450" y="200" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="22" class="bottom" />
+    <text x="475" y="225" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        22
+    </text>
+    <rect x="500" y="150" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="23" class="bottom" />
+    <text x="525" y="175" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        23
+    </text>
+    <rect x="550" y="200" width="50" height="50" fill="white" stroke="black" stroke-width="2" id="24" class="bottom" />
+    <text x="575" y="225" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        24
+    </text>
+
+    <!-- B -->
+    <rect x="200" y="50" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="epsilon"
+        class="back" />
+    <text x="225" y="75" class="small bold center-label" text-anchor="middle" dominant-baseline="middle">
+        ε
+    </text>
+
+    <rect x="250" y="100" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="Q" class="back" />
+    <text x="275" y="125" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        Q
+    </text>
+    <rect x="150" y="100" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="R" class="back" />
+    <text x="175" y="125" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        R
+    </text>
+    <rect x="150" y="0" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="S" class="back" />
+    <text x="175" y="25" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        S
+    </text>
+    <rect x="250" y="0" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="T" class="back" />
+    <text x="275" y="25" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        T
+    </text>
+
+    <rect x="200" y="100" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="17" class="back" />
+    <text x="225" y="125" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        17
+    </text>
+    <rect x="150" y="50" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="18" class="back" />
+    <text x="175" y="75" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        18
+    </text>
+    <rect x="200" y="0" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="19" class="back" />
+    <text x="225" y="25" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        19
+    </text>
+    <rect x="250" y="50" width="50" height="50" fill="orange" stroke="black" stroke-width="2" id="20" class="back" />
+    <text x="275" y="75" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        20
+    </text>
+
+    <!-- F -->
+    <rect x="200" y="350" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="gamma" class="front" />
+    <text x="225" y="375" class="small bold center-label" text-anchor="middle" dominant-baseline="middle">
+        γ
+    </text>
+
+    <rect x="150" y="300" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="I" class="front" />
+    <text x="175" y="325" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        I
+    </text>
+    <rect x="250" y="300" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="J" class="front" />
+    <text x="275" y="325" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        J
+    </text>
+    <rect x="150" y="400" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="L" class="front" />
+    <text x="175" y="425" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        L
+    </text>
+    <rect x="250" y="400" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="K" class="front" />
+    <text x="275" y="425" class="small bold corner-label" text-anchor="middle" dominant-baseline="middle">
+        K
+    </text>
+
+    <rect x="200" y="300" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="9" class="front" />
+    <text x="225" y="325" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        9
+    </text>
+    <rect x="250" y="350" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="10" class="front" />
+    <text x="275" y="375" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        10
+    </text>
+    <rect x="200" y="400" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="11" class="front" />
+    <text x="225" y="425" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        11
+    </text>
+    <rect x="150" y="350" width="50" height="50" fill="red" stroke="black" stroke-width="2" id="12" class="front" />
+    <text x="175" y="375" class="small bold edge-label" text-anchor="middle" dominant-baseline="middle">
+        12
+    </text>
+</svg>
